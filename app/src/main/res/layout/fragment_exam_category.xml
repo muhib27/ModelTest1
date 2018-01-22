@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.modeltest.com.modeltest.fragment.ExamCategoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+    <!--android:paddingLeft="@dimen/margin_10dp"-->
+    <!--android:gravity="center|left"-->
+    <!--android:id="@+id/modelTest"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/margin_40dp"-->
+    <!--android:text="@string/hello_blank_fragment" />-->
+    <!--<view-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="3dp"/>-->
+    <!--<TextView-->
+    <!--android:paddingLeft="@dimen/margin_10dp"-->
+    <!--android:gravity="center|left"-->
+    <!--android:id="@+id/topic"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/margin_40dp"-->
+    <!--android:text="@string/hello_blank_fragment" />-->
+    <LinearLayout
+        android:id="@+id/modelTest"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:background="@color/topicDescriptionColor"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtTopicDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingLeft="@dimen/margin_10dp"
+                android:text="Model Test"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".65"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorWindowBg">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_row_proceed"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutTopic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:background="@color/topicDescriptionColor"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtTopic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingLeft="@dimen/margin_10dp"
+                android:text="Topics"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".65"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorWindowBg">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/topicProceed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_row_proceed"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

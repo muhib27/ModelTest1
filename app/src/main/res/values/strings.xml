@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">ModelTest</string>
+    <string name="no_data_found_please_try_again_later">No data found, please try again later.</string>
+    <string name="txt_row_proceed">Proceed</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <!--login page-->
+    <string name="mobile_no_text">Mobile No</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="forgot_password_text">Forget Password?</string>
+    <string name="not_registered_yet_text">Forgot Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Registration -->
+    <string name="full_name">Full Name* </string>
+    <string name="reg_mobile_no_text">Mobile No*</string>
+    <string name="email_text">Email</string>
+    <string name="submit">Submit</string>
+
+    <!--//RegistrationCompleteFragment-->
+    <string name="verification_code">Verification Code </string>
+    <string name="set_password">Set Password</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="verification_code_sent_text">A verification code has been sent to your mobile no.</string>
+    <string name="resend_text">Don\'t get code? Tap here to send again</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--//navigation menu-->
+    <string name="log_out">Log out</string>
+
+
+    <!--Exam initial Fragment-->
+    <string name="title_activity_summery">Summary</string>
+    <string name="total_question">Total Question</string>
+    <string name="total_score">Total Score</string>
+    <string name="high_score">Highest</string>
+    <string name="best_score">Your Best</string>
+    <string name="attempts">Attempts</string>
+    <string name="start">Start</string>
+
+
+    <string name="quiz_page_time">Time</string>
+    <string name="quiz_page_score">Score</string>
+    <string name="str_00">00</string>
+    <string name="dialog_title_quiz">Quiz</string>
+
+    <string name="score">Score:</string>
+    <string name="time">Time:</string>
+    <string name="exit_message">Would you like to exit now?</string>
+    <string name="msg_no">No</string>
+    <string name="msg_yes">Yes</string>
+
+    <string name="txt_share">Share</string>
+    <string name="txt_answer">Answer</string>
+    <string name="txt_explanation">Explanation</string>
+    <string name="text_next">Next</string>
+    <string name="mta_meet_anchors">ওদের কথা</string>
+    <string name="btn_text_finish">Finish</string>
+
+    <string name="your_score">Your Score</string>
+    <string name="share_your_score">Share your score</string>
+    <string name="your_best">Your Best</string>
+    <string name="highest_score">Highest Score</string>
+    <string name="search_for">"Search results for "</string>
+    <string name="title_activity_single_daily_doze">Daily Doze</string>
+    <string name="cat_youtube_video">YouTube Video</string>
+    <string name="cat_daily_doze">Daily Doze</string>
+    <string name="cat_quiz">Quiz</string>
+
+    <string name="txt_save_score">Save Score</string>
+    <string name="txt_try_again">Try Again</string>
+    <string name="txt_summery">Answer Summary</string>
+    <string name="txt_top_scores">Leaderboard</string>
+</resources>
